@@ -1,1 +1,11 @@
 rootProject.name = 'demo'
+fileTree('.') {
+    include '**/build.gradle'
+    exclude (
+            'build.gradle',
+    )
+}.collect {
+    relativePath(it.parent).replace(File.separator, ':')
+}.sort().each {
+    include it
+}

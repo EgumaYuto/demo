@@ -1,4 +1,4 @@
-package io.cabos.demo;
+package io.cabos.helloworld;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
