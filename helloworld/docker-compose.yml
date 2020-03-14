@@ -1,0 +1,8 @@
+
+version: '3'
+
+services:
+  helloworld:
+    image: helloworld:latest
+    ports:
+      - 7001:7001
